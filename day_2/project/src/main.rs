@@ -45,3 +45,42 @@ fn print_value(){
 // tupples can be used in match expressions
 
 // functions!
+// ownership!
+
+// create an example of ownership!
+fn ownership(){
+    let x = 5;
+    println!("{}",x);
+    // x is dropped here :
+}
+
+fn ownership_in_heap(){
+    let x = String::from("Hello");
+    println!("{}",x);
+    // x is dropped here :
+}
+
+fn ownership_moved(){
+    let x = String::from("Hello");
+    let y = x;
+
+    // x cannot me accessed anymore!
+    println!("{}",y);
+}
+
+fn ownership_borrowed(){
+    let x = String::from("Hello");
+    let y = &x;
+
+    // x can be accessed here!
+    println!("{} {}",x,y);
+}
+
+
+// create an example of functions!
+
+// create an example of tupples!
+
+// create an example of match expressions!
+
+// create an example of destructuring!
