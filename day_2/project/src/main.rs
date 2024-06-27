@@ -1,3 +1,7 @@
+
+
+const VERSION:u8 = 8;
+
 fn main() {
     println!("Tupels :)");
 
@@ -13,11 +17,21 @@ fn main() {
     println!("{}",name);
     println!("{}",age);
 
+    println!("{VERSION}");
     print_value();
 }
 
 fn print_value(){
+    let x = 6;
+    println!("{}",x);
     println!("Hi From Function!");
+
+    let some_string = String::from("This is my string as you can see!!");
+
+    println!("{}",some_string);
+
+    // All of the variables be dropped here :)
+
 }
 
 // tupples!!
