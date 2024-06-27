@@ -12,8 +12,13 @@ fn main() {
 
     println!("{}",name);
     println!("{}",age);
+
+    print_value();
 }
 
+fn print_value(){
+    println!("Hi From Function!");
+}
 
 // tupples!!
 // tupples are immutable by default
@@ -24,3 +29,5 @@ fn main() {
 // tupples can be used as function arguments
 // tupples can be returned from functions
 // tupples can be used in match expressions
+
+// functions!
