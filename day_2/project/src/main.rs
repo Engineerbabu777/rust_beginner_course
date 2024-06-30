@@ -1,7 +1,7 @@
 
 
 const VERSION:u8 = 8;
-
+const VERSION2:u8 = 80;
 const NEW_VERSION:u8 = 10;
 
 fn main() {
