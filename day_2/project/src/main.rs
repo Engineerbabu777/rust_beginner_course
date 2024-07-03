@@ -3,6 +3,8 @@
 const VERSION:u8 = 8;
 const VERSION2:u8 = 80;
 const VERSION3:u8 = 80;
+const VERSION3:u8 = 80;
+
 const VERSION4:u8 = 89;
 const NEW_VERSION:u8 = 10;
 
